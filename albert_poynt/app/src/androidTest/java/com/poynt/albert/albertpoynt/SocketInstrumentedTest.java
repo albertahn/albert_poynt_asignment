@@ -24,6 +24,7 @@ public class SocketInstrumentedTest {
             new ActivityTestRule<>(MainActivity.class);
 
 
+    //tests Context of app
     @Test
     public void useAppContext() throws Exception {
         // Context of the app under test check.
@@ -32,6 +33,7 @@ public class SocketInstrumentedTest {
         assertEquals("com.poynt.albert.albertpoynt", appContext.getPackageName());
     }
 
+    //tests setSocketListener function
     @Test
     public void testFirebase() throws Exception {
         // Check for socket listener test
@@ -40,6 +42,7 @@ public class SocketInstrumentedTest {
 
     }
 
+    //tests updateFirebasePayResult function
     @Test
     public void testUpdateResult() throws Exception {
 
@@ -47,10 +50,12 @@ public class SocketInstrumentedTest {
 
     }
 
+    //tests launchPayment function
     @Test
     public void testPaymentFragment() throws Exception{
 
-        mActivityRule.getActivity().launchPayment(1000l);
+
+        mActivityRule.getActivity().launchPayment(1000l, "USD");
     }
 
 

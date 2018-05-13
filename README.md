@@ -25,3 +25,9 @@
 - Security : currently for testing purposes I have not encrypted the json data separately but mainly depending on firebase to handle any security issues. A fix if I had more time would be to add my own encryptions such as symmetric encryption or certificates. Also I would add an authentication method for merchant client with firebase auth or other sources to generate a UUID.
 
 - connectivity considerations : Since all communication is solely depending on wifi I would use a queue structure on the Poynt app and client side in case internet connectivity is down or has other issues. I would implement a persistent model to store unsent data for a short period in a queue and have the option to delete the transaction if it did not go through.
+
+5. Unit and InstrumentedTest:
+
+- SocketInstrumentedTest: espresso tests for testing ui and functions with context
+
+- SocketUnitTest:  Tests MainActivity and context
