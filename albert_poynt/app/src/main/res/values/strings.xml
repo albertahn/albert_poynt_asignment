@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlbertPoynt</string>
+    <string name="pay_show_here">Payment results will show here, once the client makes a payment with amount in USD.</string>
+    <string name="sample_pay_obj">{"referenceId" : "8be638f0-015d-1000-c324-3148dc293b76"}</string>
+</resources>

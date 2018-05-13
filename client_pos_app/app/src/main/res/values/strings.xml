@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Client POS Merchant</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="usd">$USD</string>
+    <string name="payment_hint">Type payment amount</string>
+    <string name="clear">clear</string>
+    <string name="intro">This is the Client app. Click button below to make payment.</string>
+</resources>
